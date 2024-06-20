@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: aliceblue;
+}
+/* Barra de navegacion */
+header{
+    padding: 5px;
+    margin-top: 5px;
+    background: greenyellow;
+    color: beige;
+    font-size: 35px;
+    font-weight: lighter;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container p{
+    color: black;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
+.container img{
+    width: 200px;
+    border-radius: 5px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+nav{
+    justify-content: flex-start;
+    background: rgb(2, 54, 2);
+    padding: 1%;
+    padding-left: 5px;
+    letter-spacing: 1px;
+    word-spacing: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    column-gap: 1em;
+}
+nav il{
+    /* display: inline; */
+    margin-left: 10px;
+}
+nav a{
+    color: aquamarine;
+}
+nav a:hover{
+    color: blueviolet;
+}
+/* banner */
+.banner{
+    border-radius: 5px;
+    display: block;
+    max-width: 100%;
+    height: 180px;
+    width: auto;
+}
+.banner_img{
+    width: 100%;
+    object-fit: cover;
+    height: inherit;
+
+}
+.card{
+    /* flex-basis:(33% - 20px) */
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+    min-width: 250px;
+}
+/* th child es para seleccionar y darle estilo un elemento que se llama igual */
+.card:nth-child(1){
+    border: gold 5px solid;
+    background: rgb(250, 236, 160);
+    border-radius: 50px 1px 50px 1px;
+}
+.card:nth-child(2){
+    border: rgb(6, 116, 33) 5px solid;
+    background: rgb(175, 250, 185);
+    border-radius: 50px 1px 50px 1px;
+}
+.card:nth-child(3){
+    border: rgb(170, 22, 158) 5px solid;
+    background: rgb(240, 202, 245);
+    border-radius: 50px 1px 50px 1px;
+}
+.card h2{
+    margin-top: 0;
+    color: black;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: left;
+}
+.card p{
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+img{
+    width: 30%;
+    height: 30%;
+}
+.card_img{
+    object-fit: contain;
+    border-radius: 5%;
+}
+.imagen{
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: 100px;
+}
+.seccion2A{
+    padding: 1px;
+    background: aliceblue;
+    min-width: 250px;
+    box-shadow: 0 4px 8px gray;
+}
+.seccion2B{
+    margin:9px;
+    padding-left: 10px;
+    padding: 10px;
+    background: silver;
+}
+.card_img{
+    object-fit: contain;
+    border-radius: 5px;
+    width: 15%;
+    height: 15%;
+}
+.rating{
+    display: inline;
+    margin: 20px;
+}
+input[type="radio"]{
+    display: none;
+}
+label{
+    font-size: 40px;
+    color: aliceblue;
+    cursor: pointer;
+}
+input[type="radio"]:checked~label{
+    color: burlywood;
+} 
