@@ -1,0 +1,33 @@
+body{
+    font-family: verdana;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    padding: 20px;
+    color: antiquewhite;
+    text-align: right;
+    background: black;
+    font-size: 2em;
+}
+section{
+    display: flex;
+}
+#articulo1{
+    background: #7ebdbb;
+}
+#articulo2{
+    background: #b6cee3;
+}
+#articulo3{
+    background:#eccae2 ;
+}
+p{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 100%;
+}

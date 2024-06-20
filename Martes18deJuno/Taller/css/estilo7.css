@@ -1,0 +1,27 @@
+body{
+    margin:0px;
+    padding:0px ;
+    font-family: verdana, serif;
+}
+header{
+    padding: 30px;
+    background: #333334;
+    color: #FFFFFF;
+    font-size: 3em;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    /* indica la capa nav que se convierta en flexbox */
+    background: #CCC;
+    width: 300px;
+}
+nav a{
+    color: #555;
+    text-align: none;
+    padding: 15px;
+}
+nav a:hover{
+    background: #555;
+    color: #CCCCCC;
+}

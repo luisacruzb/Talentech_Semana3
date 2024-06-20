@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    }
+header{
+    padding: 30px;
+    background: darkred;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background: #ccc;
+}
+nav a{
+    color: #555;
+    text-decoration: none;
+    /* TEXT DECORATION es para las lineas del párrafo */
+    padding: 15px;
+}
+nav a:hover{
+    background: #555;
+    color: #CCCCCC;
+    }
