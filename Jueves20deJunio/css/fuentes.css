@@ -1,0 +1,11 @@
+/* Con esta etiqueta se especifica un nombre a la fuente 
+Para este caso se ha descargado previamente la fuente y se ubica en la carpeta de fuentes o css*/
+@font-face{
+    font-family: "Mickey"; src: url(./mickey_mouse/MickeyMouse_PERSONAL_USE_ONLY.otf);
+    }
+h1{
+    font-family: Mickey;
+}
+h2{
+    font-family: "Playwrite AU VIC";
+}

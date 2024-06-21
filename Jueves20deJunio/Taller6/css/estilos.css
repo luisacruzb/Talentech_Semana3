@@ -1,0 +1,44 @@
+@font-face{
+    font-family: "clasismo"; src: url(./classicismo/ClassicismoDEMO.otf);
+    font-family: "janda"; src: url(./janda_manatee/JandaManateeBubble.ttf);
+    font-family: "romantic"; src: url(./new_romantics/ROMANTIC.TTF);
+    font-family: "soopafresh"; src: url(./soopafresh/soopafre.ttf);
+    font-family: "rough"; src: url(./highvoltage_rough/HighVoltage\ Rough.ttf);
+}
+body{
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
+header{
+    font-family: "clasismo", serif;
+    font-size: 24px;
+}
+nav {
+    font-size: "janda", sans-serif;
+}
+nav li{
+    display: inline-block;
+    object-fit: contain;
+    justify-content: space-between;
+    list-style: none;
+    column-gap: 3em;
+}
+h2{
+    font-size: "Poppins", sans-serif;
+}
+p{
+    font-family: "Playwrite AU VIC";
+}
+aside{
+    font-family: "romantic", sans-serif;
+}
+.fontform{
+    font-family: "rough" serif;
+}
+.informacion{
+    font-family: sans-serif;
+}
+footer{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
