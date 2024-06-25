@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 30px;
+    background: #333;
+    color: #ffff;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.tabla{
+    font-family: sans-serif;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 20% repeat (2,40%);
+}
+.cabecera{
+    grid-column:1/4;
+}
+.sidebar{
+    grid:2/span 3
+}
